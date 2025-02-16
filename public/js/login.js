@@ -1,4 +1,3 @@
-// public/js/login.js
 // Función para mostrar mensajes
 function showMessage(message, type = 'warning') {
     const messageDiv = document.getElementById('message');
