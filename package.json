@@ -1,0 +1,17 @@
+{
+  "name": "electivaii-nodejs",
+  "version": "1.0.0",
+  "description": "Sistema de login y registro con Node.js y SQLite",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "setup-db": "node database/setupDB.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-session": "^1.17.3",
+    "sqlite3": "^5.1.7"
+  }
+}
